@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { NoAudioMessage } from "../NoAudioMessage";
 import { useAudioContext } from "../AudioContextProvider";
-import { Keyboard } from "../Keyboard";
+import { Playground } from "../Playground";
 
 export interface MainProps {
   className: string;
@@ -12,7 +12,7 @@ export const Main = ({ className }: MainProps): ReactElement => {
 
   return !!AudioContext ? (
     <main className={className}>
-      <Keyboard />
+      <Playground />
     </main>
   ) : (
     <NoAudioMessage />
