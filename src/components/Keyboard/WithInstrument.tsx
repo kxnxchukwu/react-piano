@@ -1,7 +1,6 @@
 import { ReactElement, useEffect } from "react";
 import { useAudioContext } from "../AudioContextProvider";
 import { useSoundfont } from "../../adapters/Soundfont";
-import { useMount } from "../../utils/useMount";
 import { Keyboard } from "./Keyboard";
 import { useInstrument } from "../../state/Instrument";
 

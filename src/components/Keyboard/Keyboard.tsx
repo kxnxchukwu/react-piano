@@ -1,4 +1,4 @@
-import { ReactElement, lazy } from "react";
+import { ReactElement } from "react";
 import { Key } from "../Key";
 import { selectKey } from "../../domain/keyboard";
 import { MidiValue, notes } from "../../domain/note";
